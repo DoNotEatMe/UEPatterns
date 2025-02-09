@@ -39,7 +39,7 @@ APatternsGameMode* USingletonWorldSubsystem::GetCurrentGameMode()
 
 		if (!CurrentGameMode)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("USingletonWorldSubsystem::GetCurrentGameMode - CurrentGameMode is not valid"));
+			UE_LOG(LogTemp, Error, TEXT("USingletonWorldSubsystem::GetCurrentGameMode - CurrentGameMode is not valid"));
 		}
 	}
 
